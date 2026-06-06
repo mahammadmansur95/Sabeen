@@ -105,30 +105,30 @@ export default function BirthdayOverlay() {
       >
         <div style={{
           textAlign: 'center',
-          padding: 'clamp(28px,5vw,52px) clamp(24px,6vw,60px)',
+          padding: 'clamp(16px,4vw,52px) clamp(16px,5vw,60px)',
           borderRadius: 28,
           background: 'rgba(4,0,18,0.74)',
           backdropFilter: 'blur(32px)', WebkitBackdropFilter: 'blur(32px)',
           border: '1px solid rgba(255,215,0,0.18)',
           boxShadow: '0 0 100px rgba(130,40,200,0.2), 0 32px 80px rgba(0,0,0,0.65)',
-          maxWidth: 620, width: 'calc(100% - 36px)',
-          maxHeight: '90vh', overflowY: 'auto', scrollbarWidth: 'thin',
+          maxWidth: 620, width: 'calc(100% - 24px)',
+          maxHeight: '92vh', overflowY: 'auto', scrollbarWidth: 'thin',
         }}>
           <p style={{ color: 'rgba(200,160,255,0.6)', fontFamily: 'Lato, sans-serif', fontSize: '0.7rem', letterSpacing: '0.38em', textTransform: 'uppercase', marginBottom: 6 }}>
             Happy Birthday
           </p>
 
-          <h1 style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(2.8rem,10vw,5.5rem)', fontStyle: 'italic', fontWeight: 700, lineHeight: 1, color: '#FFD700', textShadow: '0 0 60px rgba(255,215,0,0.7)', marginBottom: 18 }}>
+          <h1 style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(2.2rem,10vw,5.5rem)', fontStyle: 'italic', fontWeight: 700, lineHeight: 1, color: '#FFD700', textShadow: '0 0 60px rgba(255,215,0,0.7)', marginBottom: 14 }}>
             Sabeen
           </h1>
 
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 14, marginBottom: 22, fontSize: '1.1rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 14, marginBottom: 16, fontSize: '1.1rem' }}>
             <div style={{ flex: 1, maxWidth: 80, height: 1, background: 'linear-gradient(90deg, transparent, rgba(255,215,0,0.32), transparent)' }} />
             <span>❤️</span>
             <div style={{ flex: 1, maxWidth: 80, height: 1, background: 'linear-gradient(90deg, rgba(255,215,0,0.32), transparent)' }} />
           </div>
 
-          <p style={{ fontFamily: 'Georgia, serif', fontStyle: 'italic', color: 'rgba(255,245,228,0.92)', fontSize: 'clamp(0.9rem,2.2vw,1.08rem)', lineHeight: 2, whiteSpace: 'pre-wrap', marginBottom: 28 }}>
+          <p style={{ fontFamily: 'Georgia, serif', fontStyle: 'italic', color: 'rgba(255,245,228,0.92)', fontSize: 'clamp(0.85rem,2.2vw,1.08rem)', lineHeight: 1.75, whiteSpace: 'pre-wrap', marginBottom: 20, textAlign: 'left' }}>
             {text}
             {/* Cursor disappears when typing is done */}
             {!typingDone && (
@@ -136,7 +136,7 @@ export default function BirthdayOverlay() {
             )}
           </p>
 
-          <p style={{ color: 'rgba(255,215,0,0.6)', fontFamily: 'Georgia, serif', fontStyle: 'italic', fontSize: '1rem', marginBottom: typingDone ? 28 : 0 }}>
+          <p style={{ color: 'rgba(255,215,0,0.6)', fontFamily: 'Georgia, serif', fontStyle: 'italic', fontSize: '1rem', marginBottom: typingDone ? 20 : 0, textAlign: 'right' }}>
             — Mansur 💍
           </p>
 

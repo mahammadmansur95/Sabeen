@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title:       'A Special Birthday Surprise ❤️',
   description: 'A cinematic romantic journey made just for you.',
-  icons:       { icon: '/favicon.ico' },
+  icons:       { icon: '/favicon.svg' },
 }
 
 export const viewport: Viewport = {

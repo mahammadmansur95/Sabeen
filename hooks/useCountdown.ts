@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const TARGET_DATE = new Date(Date.now() + 10_000)
+const TARGET_DATE = new Date('2026-06-08T00:00:00')
 
 export interface CountdownValues {
   days: number
